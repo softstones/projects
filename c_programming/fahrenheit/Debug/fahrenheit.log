@@ -1,0 +1,4 @@
+﻿  fahrenheit.cpp
+C:\Users\Floris van der Ent\Documents\GitHub\projects\c_programming\fahrenheit\fahrenheit.cpp(12,9): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Floris van der Ent\Documents\GitHub\projects\c_programming\fahrenheit\fahrenheit.cpp(15,23): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  fahrenheit.vcxproj -> C:\Users\Floris van der Ent\Documents\GitHub\projects\c_programming\fahrenheit\Debug\fahrenheit.exe

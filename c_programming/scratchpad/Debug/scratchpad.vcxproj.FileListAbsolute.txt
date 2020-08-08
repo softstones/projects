@@ -1,0 +1,2 @@
+C:\Users\Floris van der Ent\Documents\GitHub\projects\c_programming\scratchpad\Debug\scratchpad.exe
+C:\Users\Floris van der Ent\Documents\GitHub\projects\c_programming\scratchpad\Debug\scratchpad.pdb

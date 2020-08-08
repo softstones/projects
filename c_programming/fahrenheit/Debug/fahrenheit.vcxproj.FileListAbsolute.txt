@@ -1,0 +1,2 @@
+C:\Users\Floris van der Ent\Documents\GitHub\projects\c_programming\fahrenheit\Debug\fahrenheit.exe
+C:\Users\Floris van der Ent\Documents\GitHub\projects\c_programming\fahrenheit\Debug\fahrenheit.pdb

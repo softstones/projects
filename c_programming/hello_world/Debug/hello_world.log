@@ -1,0 +1,2 @@
+﻿fahrenheit.obj : error LNK2005: _main already defined in hello_world.obj
+C:\Users\Floris van der Ent\Documents\GitHub\projects\c_programming\hello_world\Debug\hello_world.exe : fatal error LNK1169: one or more multiply defined symbols found
