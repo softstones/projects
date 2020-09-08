@@ -1,0 +1,20 @@
+22:05:51 **** Incremental Build of configuration Debug for project hello_world ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m0 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32F042x6 -DDEBUG -c -I../Core/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc -I../Drivers/STM32F0xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F0xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "hello_world.elf" @"objects.list"   -mcpu=cortex-m0 -T"C:\Users\flori\Documents\GitHub\projects\stm32\cube_workspace\hello_world\STM32F042F6PX_FLASH.ld" --specs=nosys.specs -Wl,-Map="hello_world.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: hello_world.elf
+ 
+arm-none-eabi-objdump -h -S  hello_world.elf  > "hello_world.list"
+arm-none-eabi-objcopy  -O binary  hello_world.elf  "hello_world.bin"
+arm-none-eabi-size   hello_world.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5204	     20	   1572	   6796	   1a8c	hello_world.elf
+Finished building: default.size.stdout
+ 
+Finished building: hello_world.bin
+ 
+Finished building: hello_world.list
+ 
+
+22:05:53 Build Finished. 0 errors, 0 warnings. (took 1s.129ms)
+
