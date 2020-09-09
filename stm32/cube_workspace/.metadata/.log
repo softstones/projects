@@ -19,3 +19,18 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\flori\D
 
 !ENTRY org.eclipse.cdt.core 1 0 2020-09-08 21:40:26.963
 !MESSAGE Indexed 'hello_world' (20 sources, 25 headers) in 1.89 sec: 2,221 declarations; 17,379 references; 4 unresolved inclusions; 47 syntax errors; 2,166 unresolved names (10%)
+!SESSION 2020-09-09 23:36:25.813 -----------------------------------------------
+eclipse.buildId=Version 1.4.2
+java.version=1.8.0_242
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=nl_NL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2020-09-09 23:36:44.455
+!MESSAGE Log4j initialized with config file C:\Users\flori\Documents\GitHub\projects\stm32\cube_workspace\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2020-09-09 23:36:54.251
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2020-09-09 23:36:55.015
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties

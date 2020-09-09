@@ -495,3 +495,7 @@
 2020-09-08 21:54:49,034 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
 2020-09-08 21:54:49,037 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
 2020-09-08 22:04:40,119 [INFO] Gpio:250 - dependency for GPIO []
+2020-09-09 23:36:44,462 [INFO] Activator:178 - 
+
+
+2020-09-09 23:36:44,467 [INFO] Activator:179 - !SESSION log4j initialized
